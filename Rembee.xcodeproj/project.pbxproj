@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52AC87EB1AF13F6300CFF13D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC87EA1AF13F6300CFF13D /* AppDelegate.swift */; };
+		52AC87EE1AF13F6300CFF13D /* Rembee.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 52AC87EC1AF13F6300CFF13D /* Rembee.xcdatamodeld */; };
+		52AC87F01AF13F6300CFF13D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC87EF1AF13F6300CFF13D /* ViewController.swift */; };
+		52AC87F31AF13F6300CFF13D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AC87F11AF13F6300CFF13D /* Main.storyboard */; };
+		52AC87F51AF13F6300CFF13D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AC87F41AF13F6300CFF13D /* Images.xcassets */; };
+		52AC87F81AF13F6300CFF13D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52AC87F61AF13F6300CFF13D /* LaunchScreen.xib */; };
+		52AC88041AF13F6300CFF13D /* RembeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC88031AF13F6300CFF13D /* RembeeTests.swift */; };
+		52AC880E1AF14A4000CFF13D /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC880D1AF14A3F00CFF13D /* CoreDataHelper.swift */; };
+		52AC88101AF14B9700CFF13D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC880F1AF14B9700CFF13D /* Helper.swift */; };
+		52CBBA301AF63E4200F64095 /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CBBA2F1AF63E4200F64095 /* detailViewController.swift */; };
+		52DEB2BA1AF4018100A73F1D /* helperClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DEB2B91AF4018100A73F1D /* helperClasses.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52AC87FE1AF13F6300CFF13D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52AC87DD1AF13F6300CFF13D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52AC87E41AF13F6300CFF13D;
+			remoteInfo = Rembee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52AC87E51AF13F6300CFF13D /* Rembee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rembee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AC87E91AF13F6300CFF13D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52AC87EA1AF13F6300CFF13D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52AC87ED1AF13F6300CFF13D /* Rembee.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rembee.xcdatamodel; sourceTree = "<group>"; };
+		52AC87EF1AF13F6300CFF13D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52AC87F21AF13F6300CFF13D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52AC87F41AF13F6300CFF13D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52AC87F71AF13F6300CFF13D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52AC87FD1AF13F6300CFF13D /* RembeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RembeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52AC88021AF13F6300CFF13D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52AC88031AF13F6300CFF13D /* RembeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RembeeTests.swift; sourceTree = "<group>"; };
+		52AC880D1AF14A3F00CFF13D /* CoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		52AC880F1AF14B9700CFF13D /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		52CBBA2F1AF63E4200F64095 /* detailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
+		52DEB2B91AF4018100A73F1D /* helperClasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = helperClasses.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52AC87E21AF13F6300CFF13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52AC87FA1AF13F6300CFF13D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52AC87DC1AF13F6300CFF13D = {
+			isa = PBXGroup;
+			children = (
+				52AC87E71AF13F6300CFF13D /* Rembee */,
+				52AC88001AF13F6300CFF13D /* RembeeTests */,
+				52AC87E61AF13F6300CFF13D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52AC87E61AF13F6300CFF13D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52AC87E51AF13F6300CFF13D /* Rembee.app */,
+				52AC87FD1AF13F6300CFF13D /* RembeeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52AC87E71AF13F6300CFF13D /* Rembee */ = {
+			isa = PBXGroup;
+			children = (
+				52AC88151AF16F1000CFF13D /* Helper files */,
+				52AC87EA1AF13F6300CFF13D /* AppDelegate.swift */,
+				52AC87EF1AF13F6300CFF13D /* ViewController.swift */,
+				52CBBA2F1AF63E4200F64095 /* detailViewController.swift */,
+				52AC87F11AF13F6300CFF13D /* Main.storyboard */,
+				52AC87F41AF13F6300CFF13D /* Images.xcassets */,
+				52AC87F61AF13F6300CFF13D /* LaunchScreen.xib */,
+				52AC87EC1AF13F6300CFF13D /* Rembee.xcdatamodeld */,
+				52AC87E81AF13F6300CFF13D /* Supporting Files */,
+			);
+			path = Rembee;
+			sourceTree = "<group>";
+		};
+		52AC87E81AF13F6300CFF13D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52AC87E91AF13F6300CFF13D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52AC88001AF13F6300CFF13D /* RembeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				52AC88031AF13F6300CFF13D /* RembeeTests.swift */,
+				52AC88011AF13F6300CFF13D /* Supporting Files */,
+			);
+			path = RembeeTests;
+			sourceTree = "<group>";
+		};
+		52AC88011AF13F6300CFF13D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52AC88021AF13F6300CFF13D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52AC88151AF16F1000CFF13D /* Helper files */ = {
+			isa = PBXGroup;
+			children = (
+				52AC880D1AF14A3F00CFF13D /* CoreDataHelper.swift */,
+				52AC880F1AF14B9700CFF13D /* Helper.swift */,
+				52DEB2B91AF4018100A73F1D /* helperClasses.swift */,
+			);
+			name = "Helper files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52AC87E41AF13F6300CFF13D /* Rembee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52AC88071AF13F6300CFF13D /* Build configuration list for PBXNativeTarget "Rembee" */;
+			buildPhases = (
+				52AC87E11AF13F6300CFF13D /* Sources */,
+				52AC87E21AF13F6300CFF13D /* Frameworks */,
+				52AC87E31AF13F6300CFF13D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rembee;
+			productName = Rembee;
+			productReference = 52AC87E51AF13F6300CFF13D /* Rembee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52AC87FC1AF13F6300CFF13D /* RembeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52AC880A1AF13F6300CFF13D /* Build configuration list for PBXNativeTarget "RembeeTests" */;
+			buildPhases = (
+				52AC87F91AF13F6300CFF13D /* Sources */,
+				52AC87FA1AF13F6300CFF13D /* Frameworks */,
+				52AC87FB1AF13F6300CFF13D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52AC87FF1AF13F6300CFF13D /* PBXTargetDependency */,
+			);
+			name = RembeeTests;
+			productName = RembeeTests;
+			productReference = 52AC87FD1AF13F6300CFF13D /* RembeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52AC87DD1AF13F6300CFF13D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Protodesign;
+				TargetAttributes = {
+					52AC87E41AF13F6300CFF13D = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					52AC87FC1AF13F6300CFF13D = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 52AC87E41AF13F6300CFF13D;
+					};
+				};
+			};
+			buildConfigurationList = 52AC87E01AF13F6300CFF13D /* Build configuration list for PBXProject "Rembee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52AC87DC1AF13F6300CFF13D;
+			productRefGroup = 52AC87E61AF13F6300CFF13D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52AC87E41AF13F6300CFF13D /* Rembee */,
+				52AC87FC1AF13F6300CFF13D /* RembeeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52AC87E31AF13F6300CFF13D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52AC87F31AF13F6300CFF13D /* Main.storyboard in Resources */,
+				52AC87F81AF13F6300CFF13D /* LaunchScreen.xib in Resources */,
+				52AC87F51AF13F6300CFF13D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52AC87FB1AF13F6300CFF13D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52AC87E11AF13F6300CFF13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52AC87F01AF13F6300CFF13D /* ViewController.swift in Sources */,
+				52AC87EB1AF13F6300CFF13D /* AppDelegate.swift in Sources */,
+				52DEB2BA1AF4018100A73F1D /* helperClasses.swift in Sources */,
+				52AC88101AF14B9700CFF13D /* Helper.swift in Sources */,
+				52AC880E1AF14A4000CFF13D /* CoreDataHelper.swift in Sources */,
+				52CBBA301AF63E4200F64095 /* detailViewController.swift in Sources */,
+				52AC87EE1AF13F6300CFF13D /* Rembee.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52AC87F91AF13F6300CFF13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52AC88041AF13F6300CFF13D /* RembeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52AC87FF1AF13F6300CFF13D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52AC87E41AF13F6300CFF13D /* Rembee */;
+			targetProxy = 52AC87FE1AF13F6300CFF13D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52AC87F11AF13F6300CFF13D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52AC87F21AF13F6300CFF13D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52AC87F61AF13F6300CFF13D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52AC87F71AF13F6300CFF13D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52AC88051AF13F6300CFF13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52AC88061AF13F6300CFF13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52AC88081AF13F6300CFF13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rembee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52AC88091AF13F6300CFF13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Rembee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52AC880B1AF13F6300CFF13D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RembeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rembee.app/Rembee";
+			};
+			name = Debug;
+		};
+		52AC880C1AF13F6300CFF13D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RembeeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rembee.app/Rembee";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52AC87E01AF13F6300CFF13D /* Build configuration list for PBXProject "Rembee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52AC88051AF13F6300CFF13D /* Debug */,
+				52AC88061AF13F6300CFF13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52AC88071AF13F6300CFF13D /* Build configuration list for PBXNativeTarget "Rembee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52AC88081AF13F6300CFF13D /* Debug */,
+				52AC88091AF13F6300CFF13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52AC880A1AF13F6300CFF13D /* Build configuration list for PBXNativeTarget "RembeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52AC880B1AF13F6300CFF13D /* Debug */,
+				52AC880C1AF13F6300CFF13D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		52AC87EC1AF13F6300CFF13D /* Rembee.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				52AC87ED1AF13F6300CFF13D /* Rembee.xcdatamodel */,
+			);
+			currentVersion = 52AC87ED1AF13F6300CFF13D /* Rembee.xcdatamodel */;
+			path = Rembee.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 52AC87DD1AF13F6300CFF13D /* Project object */;
+}
