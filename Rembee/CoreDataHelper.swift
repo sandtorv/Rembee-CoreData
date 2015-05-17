@@ -108,8 +108,10 @@ func clickRembee(indexPath: NSIndexPath) -> Bool{
     var completed: Bool = item.valueForKey("completed") as! Bool
     if(completed){
         item.setValue(false, forKey: "completed")
+        item.setValue(-1, forKey: "itemID")
     } else{
         item.setValue(true, forKey: "completed")
+        item.setValue(detailItems.count+1, forKey: "itemID")
     }
     return true
 }
