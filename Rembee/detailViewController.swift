@@ -83,7 +83,7 @@ class detailViewController: UIViewController, UITableViewDelegate {
             println("fetchCoreData")
             detailItems.sort() { $1.valueForKey("itemID") as! Int > $0.valueForKey("itemID") as! Int }
             // TODO: Fix sort by itemID and completed
-            detailItems.sort() { $1.valueForKey("completed") as! Bool == true && $0.valueForKey("completed") as! Bool != true }
+//            detailItems.sort() { $1.valueForKey("completed") as! Bool == true && $0.valueForKey("completed") as! Bool != true }
             tableView.reloadData()
         } else{
             printError("Error")
